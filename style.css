@@ -9,6 +9,7 @@ h1 {
     color: #000000;
     margin-left: 5vh;
     text-shadow: 1vh 1vh 2vh rgba(0, 0, 0, 0.3);
+    text-align: center;
 }
 
 h2 {
@@ -23,13 +24,18 @@ h3 {
     padding: 2vh;
 }
 
-
+h4 {
+    font-size: 2vh;
+    margin: 0;
+    padding: auto;
+}
 /* Fim tipografia */
 
 /* Início header */
 header {
     display: flex;
     align-items: center;
+    background-color: #D9D9D9;
 }
 
 header img {
@@ -87,19 +93,19 @@ header img {
 
 .card3 img {
     width: 50%;
+    height: 50vh;
     border-radius: 20px;
+    margin: 5vh;
 }
 /* Fim card 3 */
 
 /* Início footer */
 footer {
-    background-color: #001427;
-    color: white;
     text-align: left;
     font-size: 18px;
-    margin: 5px;
     padding: 10px;
-    display: flex;
+    background-color: #D9D9D9;
+    text-align: center;
 }
 /* Fim footer */
 
